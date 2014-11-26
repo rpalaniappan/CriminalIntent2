@@ -1,6 +1,7 @@
 package com.palramanathan.criminalintent2;
 
-import android.app.Fragment;
+
+import android.support.v4.app.Fragment;
 
 /**
  * Created by palramanathan on 14-11-26.
