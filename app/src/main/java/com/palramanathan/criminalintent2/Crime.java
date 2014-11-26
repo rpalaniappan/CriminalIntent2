@@ -19,6 +19,9 @@ public class Crime {
         mDate = new Date();
     }
 
+    public UUID getId() {
+        return mId;
+    }
     public void setId(UUID mId) {
         this.mId = mId;
     }
@@ -46,4 +49,10 @@ public class Crime {
     public void setSolved(boolean solved) {
         mSolved = solved;
     }
+
+    @Override
+    public String toString() {
+        return mTitle;
+    }
+
 }
