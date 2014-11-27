@@ -20,7 +20,7 @@ import java.util.UUID;
 
 
 public class CrimeFragment extends Fragment {
-    public static final String EXTRA_CRIME_ID = "com.bignerdranch.android.criminalintent.crime_id";
+    public static final String EXTRA_CRIME_ID = "com.palramanathan.criminalintent2.crime_id";
     private static final String DIALOG_DATE = "date";
     private static final int REQUEST_DATE = 0;
     private EditText mTitleField;
